@@ -26,3 +26,22 @@ print("hello world")
 
 7. Github 올리기
 # git push origin master
+
+
+### Github로 팀프로젝트 하는법 ###
+
+1. Github에서 소스코드 다운로드
+# git clone 주소 폴더이름
+# 주소는 github에서 들고와야함
+# 폳더 이름은 선택사항, 이름을 안줄경우 포르젝트 이름으로 폴더가 자동으로 생기고 그안에 코드가 다운로드
+
+2. Github에서 내 브렌치(branch) 만들기
+# git checkout -b 브렌치이름
+
+3. 내 브렌치에 소스코드 입력하기
+# git add .
+# git commit -m "first commit"
+# git push origin 브렌치이름
+
+4. 마스터 브렌치에 소스 가져오기(Pull)
+# git pull origin master
